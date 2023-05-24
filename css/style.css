@@ -1,0 +1,71 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: dark;
+}
+nav.nav1 i .bloon{
+  color:var(--bs-body-bg) }; 
+
+.navbar-brand {
+  padding-right: 20px;
+  border-right: 4px solid white;
+  border-radius: 30px;
+}
+a.link1 {
+  height: 180px;
+  width: 180px;
+  border: 4px solid darkcyan;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+a.link1:hover {
+  border: 4px solid rgb(171, 214, 16);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+a.link1 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.foto-kbk3 {
+  height: 500px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  /* Small breakpoint */
+  .small-img {
+    aspect-ratio: 3/2;
+    object-fit: cover; /* Atur ketinggian sesuai kebutuhan */
+  }
+  .foto-kbk3 {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 579px) {
+  /* Custom breakpoint */
+  .cs-img {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+  }
+}
+@media (min-width: 768px) {
+  /* Medium breakpoint */
+  .md-img {
+    aspect-ratio: 3/1;
+    object-fit: cover; /* Atur ketinggian sesuai kebutuhan */
+  }
+  .md-cs-img {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url(./fonts/BebasNeue-Regular.woff2) format('woff2');
+  }
+  
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.profile-area{
+    padding: 80px 0;
+
+}
+.card1 {
+    background-color: rgba(119, 119, 121, 0.849);
+    border-radius: 30px;
+    overflow: hidden;
+ 
+}
+.list-group {
+    box-shadow: 6px 10px 5px 4px rgba(0,0,0,0.91);
+    -webkit-box-shadow: 6px 10px 5px 4px rgba(0,0,0,0.91);
+    -moz-box-shadow: 6px 10px 5px 4px rgba(0,0,0,0.91);
+    border: 1px solid black;
+    
+}
+.card1 img {
+  object-fit: cover;
+}
+.volo {
+    background-color: rgba(119, 119, 121, 0.849);
+}
+.card {
+    
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    
+}
+.img1 img {
+    height: 200px;
+    object-fit: fill;
+    width: 100%;
+}
+
+.img2 img {
+    position: relative;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    z-index:1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+
+}
+.card:hover .img2 img {
+    border-color: darkcyan;
+    transition: .7s;
+    
+}
+.main-text {
+    padding: 30px 0;
+    text-align: center;
+
+}
+.main-text h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.main-text p {
+    font-size: 16px;
+    padding: 0 35px;
+    font-weight: 700;
+}
+
+.main-text p img.sman {
+   height: 30px;
+   width: 30px;
+   margin-right: 20px;
+}
+
+ h5 .mb-3 {
+    font-family: "BebasNeue-Regular";
+      
+} 
+.ket {
+    font-family: "BebasNeue-Regular";
+    font-weight: 100;
+}
+.socials {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.socials i {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 0 10px;
+}
+.socials i:hover {
+    color: rgb(247, 0, 0);
+    transition: .7s;
+    
+    
+}
+div.custom {
+    background-image: url(./assets/batik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sma-link {
+    font-size: 89%;
+}
+.container .phone {
+    background-image: url(./assets/phone.png);
+    height: 500px;
+}
+
+span.kbk{
+    background-image: url(./assets/kbk.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+
+
+@media (max-width: 599px) { /* Small breakpoint */
+    .list-group {
+      width: 80%;
+      margin: auto; /* Atur ketinggian sesuai kebutuhan */
+    }
+    span.kbk {
+        height: 60px;
+        width: 60px;  
+    }
+ 
+    h5.mb-3 {
+        font-size: 100%;
+    }
+    p.mb-1 {
+        font-size: 80%;
+    }
+
+}
+
+@media (max-width: 771px) { /* Custom breakpoint */
+    .list-group {
+        width: 80%;
+        margin: auto; /* Atur ketinggian sesuai kebutuhan */
+      }
+      span.kbk {
+          height: 60px;
+          width: 60px;  
+      }
+   
+      h5.mb-3 {
+          font-size: 1.4em;
+      }
+    
+    .ket {
+        font-size: 0.8em;
+    }
+}
+@media (min-width: 772px) { /* Custom breakpoint */
+    .list-group {
+        width: 90%;
+        margin: auto; /* Atur ketinggian sesuai kebutuhan */
+      }
+      span.kbk {
+          height: 80px;
+          width: 80px;  
+      }
+   
+      h5.mb-3 {
+          font-size: 2em;
+      }
+     
+    .ket {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 768px) { /* Medium breakpoint */
+    .md-img {
+        aspect-ratio: 3/1;
+        object-fit: cover; /* Atur ketinggian sesuai kebutuhan */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
